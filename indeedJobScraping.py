@@ -29,6 +29,6 @@ for index, jobListing in enumerate(jobListings):
     with open(f"Internships/{companyName} Insernship.txt", "w") as f:
         f.write(f"Job Title: {jobTitle} \n")
         f.write(f"Company Name: {companyName} \n")
-        f.write(f"Company Information: {companyInfo} \n")
+        f.write(f"Company Information Link: {companyInfo} \n")
         f.write(f"Job Location: {jobLocation} \n")
         f.write(f"Short Description: {descriptionSummary} \n")
