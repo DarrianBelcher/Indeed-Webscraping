@@ -7,7 +7,7 @@ The website link:
 <br>
 ```htmlText = requests.get("https://www.indeed.com/jobs?q=intern&l=hampton&fromage=1&vjk=d6866bece2cc7d55").text ``` 
 <br>
-can be swaped and customized using Indeed to change the parameters of the internship search (job location radius, etc)
+can be swaped and customized using Indeed to change the parameters of the internship search (job, location, etc)
 
 ## Requirements
 * Install **Beautiful Soup** and **Requests** libraries
