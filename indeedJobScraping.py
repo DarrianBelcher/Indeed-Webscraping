@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 # Date: 10/08/21
 # Description: Web scraping project that searches indeed and extracts the first page of internship opportinities within 25 miles of Hampton, Virginia, that were posted in the last 24 hours. The internship descriptions are them written to individual company text files.  
 
