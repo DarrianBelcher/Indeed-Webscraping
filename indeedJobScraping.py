@@ -13,7 +13,7 @@ jobListings = soup.find_all("div", class_="slider_item") # searches for individu
 for index, jobListing in enumerate(jobListings):
     jobTitleBlock = jobListing.find('h2') #there are two span tags in the block, title needed from second block
 
-    jobTitle = jobTitleBlock.find_next("span").find_next("span").text #Extracts title from title block 
+    jobTitle = jobTitleBlock.find_next("span").text #Extracts title from title block 
 
     companyName = jobListing.find("span",class_="companyName").text #Extracts company name from job card
 
