@@ -1,4 +1,4 @@
-# Indeed-Webscraping
+# IndeedWebscraping-To-Files
 
 ## Description
 Web scraping Python project that extracts the first page of Indeed internship opportunities within 25 miles of Hampton, Virginia, that were posted in the last 24 hours. The internship descriptions including internship title, company name, job description, job location, and company Information link are then written to individual company text files.
